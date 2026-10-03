@@ -24,7 +24,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/ic_aegis_iconx" />
+                app:srcCompat="@drawable/shield_lock_24px_filled"
+                app:tint="?attr/colorControlNormal" />
 
             <TextView
                 android:layout_width="match_parent"
