@@ -120,11 +120,11 @@ encoded (with padding) ciphertext of the vault contents. Otherwise, the value is
 a JSON object. See [vault content](#vault-content) for details.
 
 Full examples of a [plain text
-vault](/app/src/test/resources/com/beemdevelopment/aegis/importers/aegis_plain.json)
+vault](/app/src/test/resources/com/android/authenticator/importers/aegis_plain.json)
 and an [encrypted
-vault](/app/src/test/resources/com/beemdevelopment/aegis/importers/aegis_encrypted.json)
+vault](/app/src/test/resources/com/android/authenticator/importers/aegis_encrypted.json)
 are available in the [test
-data](/app/src/test/resources/com/beemdevelopment/aegis/importers) folder.
+data](/app/src/test/resources/com/android/authenticator/importers) folder.
 There's also an example Python script that can decrypt an Aegis vault given the
 password: [decrypt.py](/docs/decrypt.py).
 
@@ -321,7 +321,7 @@ The following algorithms are supported for HOTP and TOTP:
 There is no specification available for Steam's OTP algorithm. It's essentially
 the same as TOTP, but it uses a different final encoding step. Aegis'
 implementation of it can be found in
-[crypto/otp/OTP.java](/app/src/main/java/com/beemdevelopment/aegis/crypto/otp/OTP.java).
+[crypto/otp/OTP.java](/app/src/main/java/com/android/authenticator/crypto/otp/OTP.java).
 
 A couple of fields have fixed values:
 
@@ -335,7 +335,7 @@ A couple of fields have fixed values:
 
 There is no specification available for MOTP. Aegis' implementation of it can be
 found in
-[crypto/otp/MOTP.java](/app/src/main/java/com/beemdevelopment/aegis/crypto/otp/MOTP.java).
+[crypto/otp/MOTP.java](/app/src/main/java/com/android/authenticator/crypto/otp/MOTP.java).
 
 A couple of fields have fixed values:
 
@@ -355,7 +355,7 @@ MOTP-specific fields:
 
 There is no specification available for Yandex's OTP algorithm. Aegis'
 implementation can be found in
-[crypto/otp/YAOTP.java](/app/src/main/java/com/beemdevelopment/aegis/crypto/otp/YAOTP.java)
+[crypto/otp/YAOTP.java](/app/src/main/java/com/android/authenticator/crypto/otp/YAOTP.java)
 
 A couple of fields have fixed values:
 
