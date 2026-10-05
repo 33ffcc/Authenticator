@@ -24,6 +24,12 @@ android {
 
     namespace packageName
 
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "Authenticator.apk"
+        }
+    }
+
     defaultConfig {
         applicationId "${packageName}"
         minSdkVersion 26
