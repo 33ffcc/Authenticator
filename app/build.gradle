@@ -71,7 +71,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             manifestPlaceholders = [
-                title: "AegisDev",
+                title: "Authenticator",
                 fileProviderAuthority: "${fileProviderAuthorityDebug}"
             ]
             buildConfigField("String", "FILE_PROVIDER_AUTHORITY", "\"${fileProviderAuthorityDebug}\"")
@@ -79,7 +79,7 @@ android {
         }
         release {
             manifestPlaceholders = [
-                title: "Aegis",
+                title: "Authenticator",
                 fileProviderAuthority: "${fileProviderAuthority}"
             ]
             buildConfigField("String", "FILE_PROVIDER_AUTHORITY", "\"${fileProviderAuthority}\"")

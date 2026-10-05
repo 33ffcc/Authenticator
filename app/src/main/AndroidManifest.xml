@@ -27,7 +27,7 @@
         android:backupAgent=".AegisBackupAgent"
         android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Aegis"
+        android:label="Authenticator"
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/Theme.Aegis.Launch"
